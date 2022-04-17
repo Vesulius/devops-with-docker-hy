@@ -1,0 +1,16 @@
+$ docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   12 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   12 months ago   15.7MB
+
+
+$ docker exec -it alpine_test  tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-04-02 17:40:39 +0000 UTC
+2022-04-02 17:40:41 +0000 UTC
+2022-04-02 17:40:43 +0000 UTC
+2022-04-02 17:40:45 +0000 UTC
+2022-04-02 17:40:47 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-04-02 17:40:49 +0000 UTC
+2022-04-02 17:40:51 +0000 UTC
