@@ -1,0 +1,7 @@
+Created dockerfile and docker-compose-file for my work-in-progress project.
+
+Github repo: https://github.com/Vesulius/telegram-chess-bot
+
+Insturctions:
+    Download repository: git clone https://github.com/Vesulius/telegram-chess-bot.git
+    Run command in repostitory root: docker-compose up
